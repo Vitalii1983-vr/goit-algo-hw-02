@@ -48,5 +48,5 @@ def main():
     except KeyboardInterrupt:
         print("Програму зупинено користувачем")
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()  # Запуск головної функції програми

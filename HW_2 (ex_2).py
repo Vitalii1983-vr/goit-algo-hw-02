@@ -1,7 +1,7 @@
 from collections import deque  # Імпорт deque з модуля collections для використання двосторонньої черги
 import string  # Імпорт модуля string для роботи зі строковими константами
 
-def is_palindrome(input_string):
+def is_palindrome(input_string): 
     # Видалення пробілів та переведення рядка у нижній регістр.
     # З рядка видаляються всі символи, які не є буквами (з англійського алфавіту та з українського).
     cleaned_string = ''.join(ch for ch in input_string.lower() if ch in string.ascii_letters or ch in 'абвгґдеєжзиіїйклмнопрстуфхцчшщьюя')
